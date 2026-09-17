@@ -1,0 +1,6 @@
+{
+  "name": "yara-pay-website", "version": "1.0.0", "private": true,
+  "description": "Yara Pay public introduction website",
+  "scripts": { "start": "node server.mjs", "dev": "node --watch server.mjs" },
+  "engines": { "node": ">=22" }
+}
