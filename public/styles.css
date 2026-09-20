@@ -5,3 +5,9 @@
 @media(max-width:600px){.hero-visual{height:640px}.preview-label{bottom:-13px}.hero-grid{min-height:0}}
 /* Jaywan card branding and updated partner/contact presentation. */
 .card-bottom{align-items:center;margin-top:9px;position:relative;z-index:1}.jaywan-logo{width:66px;height:auto;background:#f7f7ef;border-radius:4px;padding:5px;object-fit:contain}.bank-card:after{pointer-events:none}.partner-panel>.text-link{margin-top:24px}.form-trap{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}form .button:disabled{opacity:.65;cursor:wait;transform:none}
+/* Shorter chapters with softer visual hand-offs. Existing mobile grids stay intact. */
+.section{padding:78px 0}.mission{padding:52px 0}.partner-layout{margin-top:32px}.partner-panel{min-height:270px}.journey{margin-top:24px;margin-bottom:32px}.section-heading{margin-bottom:30px}.hero-detail{max-width:365px}.business,.partners,.contact{border-radius:28px 28px 0 0}.reading-progress{position:absolute;bottom:-1px;left:0;width:100%;height:2px;background:var(--green);transform:scaleX(0);transform-origin:left;pointer-events:none}.service{transition:box-shadow .25s,border-color .25s}.partner-tabs button{transition:background .25s,color .25s}.button span{transition:transform .25s}.button:hover span{transform:translate(2px,-2px)}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.service:hover{border-color:#b4c4a8;box-shadow:0 12px 24px #17364a09}}
+@media(max-width:800px){.section{padding:62px 0}.mission{padding:44px 0}}
+@media(max-width:600px){.section{padding:48px 0}.mission{padding:38px 0}.business,.partners,.contact{border-radius:20px 20px 0 0}.partner-panel{min-height:250px}.contact h2{font-size:37px}.journey{gap:10px}.hero-copy{padding-top:38px}.section-heading>p{margin-top:16px}}
+@media(prefers-reduced-motion:reduce){.reading-progress{display:none}.service,.partner-tabs button,.button span{transition:none}}
